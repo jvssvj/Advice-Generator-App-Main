@@ -34,8 +34,8 @@
 
 |||
 | :----- | :----- |
-| Solution URL: | [Frontend Mentor - Advice generator app](https://www.frontendmentor.io/solutions/results-summary-component-main-ugOYwo9hJ0) |
-| Live Site URL: | <a target href="https://jvssvj.github.io/Results-Summary-Component-Main/" target="_blank">Advice generator app</a>
+| Solution URL: | [Frontend Mentor - Advice generator app](https://www.frontendmentor.io/solutions/advice-generator-app-9-mHn3FgRg) |
+| Live Site URL: | <a target href="https://jvssvj.github.io/Advice-Generator-App-Main/" target="_blank">Advice generator app</a>
 |||
 
 <br>

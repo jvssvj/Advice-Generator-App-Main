@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* ### Primary */
+    --Light__Cyan: hsl(193, 38%, 86%);
+    --Neon__Green: #52ffa8;
+
+    /* ### Neutral */
+    --Grayish__Blue: hsl(217, 19%, 38%);
+    --Dark__Grayish__Blue: hsl(217, 19%, 24%);
+    --Dark__Blue: hsl(218, 23%, 16%);
+    --Font__Manrope: "Manrope", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--Font__Manrope);
+    background-color: var(--Dark__Blue);
+    font-size: 1.75rem;
+    margin: 0em 1rem;
+}
+
+.advice__card {
+    width: 100%;
+    max-width: 542px;
+    background-color: var(--Dark__Grayish__Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+    border-radius: 1rem;
+    position: relative;
+}
+
+#advice__card__id {
+    color: var(--Neon__Green);
+    font-weight: 800;
+    font-size: .4em;
+    letter-spacing: .314rem;
+}
+
+#advice__card__txt {
+    font-weight: 800;
+    color: var(--Light__Cyan);
+    font-size: 1.65rem;
+    margin: 2.2rem 0em 1.65rem 0em;
+}
+
+.advice__card__line {
+    width: 100%;
+}
+
+.advice__card__dice {
+    height: 65px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Neon__Green);
+    border-radius: 100%;
+    position: absolute;
+    bottom: -1.1em;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.advice__card__dice:active {
+    transform: scale(0.92);
+}
+
+.advice__card__dice:hover {
+    -webkit-box-shadow:0px 0px 50px 0px rgba(82,255,169,0.9);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(82,255,169,0.9);
+    box-shadow: 0px 0px 50px 0px rgba(82,255,169,0.9);
+}
+
+.attribution {
+    position: absolute;
+    padding: .5rem;
+    margin-top: 72em;
+    color: var(--Very__dark__grayish__blue);
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--Light__Cyan);
+}
+
+.attribution a {
+    color: var(--Neon__Green);
+    font-weight: 800;
+    
+}
+
+.test {
+    animation: test 1.5s;
+}
+
+@keyframes test {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

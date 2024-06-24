@@ -1,0 +1,8 @@
+@media(max-width:445px) {
+    #advice__card__txt {
+        font-weight: 800;
+        color: var(--Light__Cyan);
+        font-size: 1.17rem;
+        margin: 2rem 0em 1rem 0em;
+    }
+}
